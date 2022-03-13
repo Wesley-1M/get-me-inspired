@@ -298,6 +298,8 @@ Hero
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(to bottom,rgb(44, 174, 186, 0.7), rgb(0, 0, 0, 0.7)),
+      url(../images/small-hero.jpg) center/cover no-repeat;
 }
 .hero-banner {
   text-align: center;

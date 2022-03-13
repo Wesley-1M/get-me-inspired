@@ -1,0 +1,189 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+:root{
+  --primary-clr:  #21325E;
+  --secondary-clr: #3E497A;
+  --yellow-clr: #F1D00A;
+  --red-clr: #DA1212;
+  --white-clr: #F0F0F0;
+  --line-height: 1.2rem;
+}
+
+html{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+img{
+  width: 100%;
+}
+
+.btn{
+  color: var(--red-clr);
+  font-size: 0.679rem;
+  letter-spacing: 0.075rem;
+  padding: 6px 16px;
+  text-transform: uppercase;
+  border-radius: 50px;
+  border: 1.8px solid var(--red-clr);
+}
+.btn:hover{
+  color: var(--white-clr);
+  background-color: var(--red-clr);
+}
+
+.word-red{
+  color: var(--red-clr);
+}
+
+/* 
+==================== css for all lesson pagraph file
+*/
+.inner-bg-clr{
+  background-color: rgb(245, 233, 178);
+  padding: 18px 32px;
+}
+.lesson-text > .inner-bg-clr{
+  margin-bottom: 2px;
+}
+
+/* 
+============= end of global  css
+ */
+
+.header{
+  background-color: white;
+}
+
+/* 
+==================== navbar
+ */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-clr);
+}
+.brand{
+  font-size: 2rem;
+  color: var(--white-clr);
+  padding: 12px;
+  margin-left: 12px;
+}
+
+
+.nav{
+  margin-right: 12px;
+}
+.nav-lists{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item{
+  margin-right: 15px;
+}
+.nav-item:hover{
+  text-decoration: underline;
+}
+.nav-item a {
+  color: var(--white-clr);
+}
+
+/* 
+===================== hero
+ */
+.section-center{
+  max-width: 1125px;
+  margin: 0 auto;
+}
+
+ .hero{
+   display: flex;
+   padding: 80px 32px;
+   background-color: var(--white-clr);
+   align-items: center;
+ }
+ .hero-img > img{
+  width: 100px;
+ }
+ .hero-title{
+  padding-left: 32px;
+  letter-spacing: 0.075rem;
+ }
+ .article-title > h1{
+   margin-bottom: 16px;
+ }
+
+ /* lesson */
+.lesson{
+  max-width: 769px;
+  padding: 64px 32px;
+  margin: 0 auto;
+  margin-top: 4px;
+  background-color: var(--white-clr);
+}
+
+ .audio{
+   width: 100%;
+   margin-bottom: 44px;
+   position: sticky;
+   top: 0;
+ }
+ .audio > audio{
+   width: 100%;
+   padding: 12px;
+   background-color: var(--secondary-clr);
+
+ }
+
+.lesson-title h2{
+  margin-bottom: 24px;
+  font-size: 2rem;
+  color: var(--red-clr);
+}
+
+.lesson-text p{
+  line-height: 1.6rem;
+  letter-spacing: 0.0175rem;
+  margin-bottom: 22px;
+}
+.lesson-text p:nth-child(2n){
+  color: var(--primary-clr);
+}
+
+@media screen and (min-width:679px) {
+  .hero{
+    padding: 80px 64px;
+  }
+  .lesson{
+    padding: 64px;
+  }
+}
+
+/* 
+================= footer
+*/
+.footer{
+  height: 200px;
+  background-color: var(--primary-clr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer > div {
+  font-size: 2rem;
+  color: var(--white-clr);
+}
