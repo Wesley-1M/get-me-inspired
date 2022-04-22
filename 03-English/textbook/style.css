@@ -1,0 +1,188 @@
+/*
+===============
+Fonts
+===============
+*/
+
+/*
+===============
+Variables
+===============
+*/
+
+:root {
+  /* dark shades of primary color*/
+  --clr-primary-1: hsl(205, 86%, 17%);
+  --clr-primary-2: hsl(205, 77%, 27%);
+  --clr-primary-3: hsl(205, 72%, 37%);
+  --clr-primary-4: hsl(205, 63%, 48%);
+  /* primary/main color */
+  --clr-primary-5: #49a6e9;
+  /* lighter shades of primary color */
+  --clr-primary-6: hsl(205, 89%, 70%);
+  --clr-primary-7: hsl(205, 90%, 76%);
+  --clr-primary-8: hsl(205, 86%, 81%);
+  --clr-primary-9: hsl(205, 90%, 88%);
+  --clr-primary-10: hsl(205, 100%, 96%);
+  /* darkest grey - used for headings */
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-2: hsl(211, 39%, 23%);
+  --clr-grey-3: hsl(209, 34%, 30%);
+  --clr-grey-4: hsl(209, 28%, 39%);
+  /* grey used for paragraphs */
+  --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-6: hsl(209, 23%, 60%);
+  --clr-grey-7: hsl(211, 27%, 70%);
+  --clr-grey-8: hsl(210, 31%, 80%);
+  --clr-grey-9: hsl(212, 33%, 89%);
+  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-white: #fff;
+  --clr-red-dark: hsl(360, 67%, 44%);
+  --clr-red-light: hsl(360, 71%, 66%);
+  --clr-green-dark: hsl(125, 67%, 44%);
+  --clr-green-light: hsl(125, 71%, 66%);
+  --clr-gold: #c59d5f;
+  --clr-black: #222;
+  --ff-primary: "Roboto", sans-serif;
+  --ff-secondary: "Open Sans", sans-serif;
+  --transition: all 0.2s linear;
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
+  --fixed-width: 620px;
+}
+/*
+===============
+Global Styles
+===============
+*/
+.m-t-12 {
+  margin-top: 12px;
+}
+.m-t-32 {
+  margin-top: 32px;
+}
+.m-t-48 {
+  margin-top: 48px;
+}
+.m-b-8 {
+  margin-bottom: 8px;
+}
+.m-b-12 {
+  margin-bottom: 12px;
+}
+.m-b-24 {
+  margin-bottom: 24px;
+}
+.m-b-32 {
+  margin-bottom: 32px;
+}
+.m-b-48 {
+  margin-bottom: 48px;
+}
+.txt-bold {
+  font-weight: bold;
+}
+.txt-clr-red-dark {
+  color: var(--clr-red-dark);
+}
+.txt-clr-red-light {
+  color: var(--clr-red-light);
+}
+.txt-clr-green-dark {
+  color: var(--clr-green-dark);
+}
+.txt-clr-green-light {
+  color: var(--clr-green-light);
+}
+.bg-txt-clr {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background-color: var(--clr-primary-8);
+}
+.bg-txt-clr-light {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background-color: var(--clr-primary-10);
+}
+.txt-underline {
+  text-decoration: underline;
+}
+/*
+===============
+Main page
+===============
+*/
+.section-center {
+  max-width: 679px;
+}
+.article {
+  /* min-height: 40vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.article-info {
+  padding: 64px 32px;
+  margin-top: 2rem;
+  background-color: var(--clr-primary-9);
+}
+.article-hero {
+  text-align: center;
+  color: var(--clr-grey-1);
+}
+.article-hero h2 {
+  padding-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .article-hero h1 {
+    margin-bottom: 1.2rem;
+  }
+}
+
+.info-list {
+  list-style: "✅";
+  /* list-style: "🔴"; */
+}
+.info-list > li {
+  margin-left: 32px;
+  padding-left: 8px;
+}
+
+/* messenger contact icon */
+.messenger-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 18px;
+  border-radius: 2px;
+  background-color: var(--clr-primary-8);
+}
+.contact-icon .fa-facebook {
+  font-size: 48px;
+  color: rgb(15, 78, 214);
+  margin-left: 12px;
+}
+.contact-icon .fa-facebook:hover {
+  filter: brightness(120%);
+}
+
+/* additional resouces */
+.additional-resources {
+  padding: 32px;
+  /* background-color: var(--clr-grey-9); */
+}
+
+.additional-resources .info-list li {
+  padding: 8px;
+}
+.additional-resources .info-list li:hover {
+  background-color: var(--clr-grey-8);
+}
