@@ -8,20 +8,24 @@ const menu = [
     type: "textbook-audio",
     img: "./images/interchange.jpg",
     link: "./textbook/interchange.html",
-    desc: `beginner to advanced (all level) အစုံ ကိုမှ ၂၈၀၀ သာကျသင့်မှာ
-            ဖြစ်ပါတယ်`,
+    desc: `Interchange 5th Edition ဟာ level ၄ ခုရှိပြီး ကမ္ဘာတစ်ဝန်းမှာ
+            ကျောင်းသား သန်း ၅၀ ကျော် အသုံးပြုခဲ့တဲ့ အမေရိကန်
+            အင်္ဂလိပ်သင်တန်းလေးခုပါ။ Interchangeကို ထောင်နှင့်ချီသော ဆရာများမှ
+            အတွေ့အကြုံပေါ်အခြေခံပြီး ထိုးထွင်းသိမြင်မှုဖြင့်
+            အဆင့်ဆင့်ဖွံ့ဖြိုးတိုးတက်အောင် မွမ်းမံထားသည်။`,
   },
   {
     id: 2,
-    title: "Headway Fifty Edition",
+    title: "Headway Fifth Edition",
     category: "textbook",
     price: 2800,
     level: "All-level",
     type: "textbook-audio",
     link: "./textbook/headway.html",
     img: "./images/headway.jpg",
-    desc: `beginner to advanced (all level) အစုံ ကိုမှ ၂၈၀၀ သာကျသင့်မှာ
-            ဖြစ်ပါတယ်`,
+    desc: `Headway 5th Edition ထုတ်ဝေမှုက ယနေ့ခေတ် အောင်မြင်ဖို့အတွက်
+            လိုအပ်သောအင်္ဂလိပ်စာကို ညွှန်ကြားချက်အသစ်ဖြင့်
+            လေ့လာနိုင်အောင်ထောက်ပံ့ပေးထားသည်။`,
   },
   {
     id: 3,
@@ -29,10 +33,23 @@ const menu = [
     category: "textbook",
     price: 2800,
     level: "all-level",
-    type: "stextbook-audio",
+    type: "textbook-audio",
     img: "./images/face2face.png",
     link: "./textbook/face2face.html",
     desc: `You Enjoy Speaking Clearly & Powerfully, Winning Better Jobs, Eliminating Fear, Becoming An Expert English Speaker…`,
+  },
+  {
+    id: 4,
+    title: "English File 4th Edition",
+    category: "textbook",
+    price: 2800,
+    level: "all-level",
+    type: "textbook-audio",
+    img: "./images/english-file.jpeg",
+    link: "./textbook/english-file.html",
+    desc: `အောက်စဖို့ဒ် သက်ရောက်မှုရှိသောလေ့လာမှုတစ်ခုတွင် ပါဝင်ခဲ့ကြသော
+            ကမ္ဘာတစ်ဝန်းရှိ ဆရာမ ၉၀% က English File သည် ကျောင်းသားများ၏
+            စကားပြောစွမ်းရည်များကို တိုးတက်ကောင်းမွန်စေသည်ဟု ယုံကြည်ကြသည်။`,
   },
   {
     id: 4,
