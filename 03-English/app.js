@@ -104,13 +104,14 @@ const menu = [
     desc: `Learn English Grammar with a native English teacher. Be more confident with use of present simple and continuous tenses`,
   },
   {
-    id: 9,
+    id: "u-001",
     title: "Beginner to Advanced (A1-C1) GrammarPro",
     category: "Udemy",
     price: 1900,
     level: "beginner",
     type: "grammar",
     img: "./images/beginner-to-advanced(A1-C1)-GrammarPro.jpg",
+    link: "./textbook/u-001-english-grammar-pro.html",
     desc: `Complete Grammar Course to FINISH studying English grammar + improve conversation and pronunciation`,
   },
   {
