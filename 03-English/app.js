@@ -35,7 +35,7 @@ const menu = [
     level: "all-level",
     type: "textbook-audio",
     img: "./images/english-file.jpeg",
-    link: "./textbook/face2face.html",
+    link: "./textbook/english-file.html",
     desc: `တို့ဆီမှာတော့ Interchange, Headway, cutting Edge
             တို့အများဆုံးသုံးကြပေမယ့် international
             မှာကျောင်းတက်ကြတဲ့သူတွေအများစု ကတော့ English File နဲ့ American
@@ -49,7 +49,7 @@ const menu = [
     level: "all-level",
     type: "textbook-audio",
     img: "./images/speakout2.jpg",
-    link: "./textbook/english-file.html",
+    link: "./textbook/speakout2.html",
     desc: `Speakout 2nd Edition ဟာ BBCကနေ ထုတ်ဝေတဲ့ video content များပါဝင်လို့
             ကျောင်းသားများအတွက်လေ့လာရန် အလယ်ကူဆုံးနှင့် အကောင်းဆုံး
             စီးရီးတစ်ခုဖြစ်ပါတယ်။`,
@@ -62,7 +62,7 @@ const menu = [
     level: "all-level",
     type: "textbook-audio",
     img: "./images/speakout1.jpg",
-    link: "./textbook/english-file.html",
+    link: "./textbook/speakout1.html",
     desc: `American Speakout ဟာ BBCကနေ ထုတ်ဝေတဲ့ video content များပါဝင်လို့
             ကျောင်းသားများအတွက်လေ့လာရန် အလယ်ကူဆုံးနှင့် အကောင်းဆုံး
             စီးရီးတစ်ခုဖြစ်ပါတယ်။`,
@@ -75,7 +75,7 @@ const menu = [
     level: "all-level",
     type: "textbook-audio",
     img: "./images/american-think.jpg",
-    link: "./textbook/english-file.html",
+    link: "./textbook/american-think.html",
     desc: `American Think ဟာ လူငယ်တွေအတွက်အဓိကရည်ရွယ်ထားတာဖြစ်ပြီး
             ဘာသာစကားသင်ပေးရုံသာ မဟုတ်ဘဲ စဉ်းစားတွေးခေါ်တတ်အောင်ပါ သင်ပေးတဲ့
             series ဖြစ်ပါတယ်။`,
@@ -88,7 +88,7 @@ const menu = [
     level: "all-level",
     type: "textbook-audio",
     img: "./images/cutting-edge.jpg",
-    link: "./textbook/english-file.html",
+    link: "./textbook/cutting-edge.html",
     desc: `Cutting Edge ဟာ grammar and vocabulary ကို မှတ်မိရလယ်အောင်
             ထုတ်ဝေထားတာဖြစ်ပါတယ်။ သင်ခန်းစာများကိုလည်း ယခုခေတ်နဲ့ အညီ
             အကြောင်းအရာများကို တွင်တွင်ကျယ်ကျယ် ထည့်တွင်းပေးထားတာလည်းဖြစ်ပါတယ်။`,
