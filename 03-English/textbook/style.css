@@ -37,10 +37,10 @@ Variables
   --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: hsl(210, 36%, 96%);
   --clr-white: #fff;
-  --clr-red-dark: hsl(360, 67%, 44%);
-  --clr-red-light: hsl(360, 71%, 66%);
-  --clr-green-dark: hsl(125, 67%, 44%);
-  --clr-green-light: hsl(125, 71%, 66%);
+  --clr-red-dark: #da0037;
+  --clr-red-light: #f54748;
+  --clr-green-dark: #01937c;
+  --clr-green-light: #66de93;
   --clr-gold: #c59d5f;
   --clr-black: #222;
   --ff-primary: "Roboto", sans-serif;
@@ -120,6 +120,12 @@ Global Styles
 Main page
 ===============
 */
+.btn {
+  font-weight: 600;
+}
+.btn a {
+  color: var(--clr-white);
+}
 .section-center {
   max-width: 679px;
 }
@@ -134,7 +140,7 @@ Main page
 .article-info {
   padding: 48px 24px;
   margin-top: 2rem;
-  letter-spacing: 1.5px;
+  letter-spacing: 1 px;
   /* background-color: var(--clr-primary-9); */
 }
 .article-hero {

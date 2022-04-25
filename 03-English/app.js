@@ -29,30 +29,72 @@ const menu = [
   },
   {
     id: 3,
-    title: "Face 2 Face",
-    category: "textbook",
-    price: 2800,
-    level: "all-level",
-    type: "textbook-audio",
-    img: "./images/face2face.png",
-    link: "./textbook/face2face.html",
-    desc: `You Enjoy Speaking Clearly & Powerfully, Winning Better Jobs, Eliminating Fear, Becoming An Expert English Speaker…`,
-  },
-  {
-    id: 4,
-    title: "English File 4th Edition",
+    title: "English File",
     category: "textbook",
     price: 2800,
     level: "all-level",
     type: "textbook-audio",
     img: "./images/english-file.jpeg",
-    link: "./textbook/english-file.html",
-    desc: `အောက်စဖို့ဒ် သက်ရောက်မှုရှိသောလေ့လာမှုတစ်ခုတွင် ပါဝင်ခဲ့ကြသော
-            ကမ္ဘာတစ်ဝန်းရှိ ဆရာမ ၉၀% က English File သည် ကျောင်းသားများ၏
-            စကားပြောစွမ်းရည်များကို တိုးတက်ကောင်းမွန်စေသည်ဟု ယုံကြည်ကြသည်။`,
+    link: "./textbook/face2face.html",
+    desc: `တို့ဆီမှာတော့ Interchange, Headway, cutting Edge
+            တို့အများဆုံးသုံးကြပေမယ့် international
+            မှာကျောင်းတက်ကြတဲ့သူတွေအများစု ကတော့ English File နဲ့ American
+            English file ကို Beginner to advanced ထိ လေ့လာကြပါတယ်။`,
   },
   {
     id: 4,
+    title: "Speakout 2nd Edition",
+    category: "textbook",
+    price: 2800,
+    level: "all-level",
+    type: "textbook-audio",
+    img: "./images/speakout2.jpg",
+    link: "./textbook/english-file.html",
+    desc: `Speakout 2nd Edition ဟာ BBCကနေ ထုတ်ဝေတဲ့ video content များပါဝင်လို့
+            ကျောင်းသားများအတွက်လေ့လာရန် အလယ်ကူဆုံးနှင့် အကောင်းဆုံး
+            စီးရီးတစ်ခုဖြစ်ပါတယ်။`,
+  },
+  {
+    id: 5,
+    title: "American Speakout",
+    category: "textbook",
+    price: 2800,
+    level: "all-level",
+    type: "textbook-audio",
+    img: "./images/speakout1.jpg",
+    link: "./textbook/english-file.html",
+    desc: `American Speakout ဟာ BBCကနေ ထုတ်ဝေတဲ့ video content များပါဝင်လို့
+            ကျောင်းသားများအတွက်လေ့လာရန် အလယ်ကူဆုံးနှင့် အကောင်းဆုံး
+            စီးရီးတစ်ခုဖြစ်ပါတယ်။`,
+  },
+  {
+    id: 6,
+    title: "American Think",
+    category: "textbook",
+    price: 2800,
+    level: "all-level",
+    type: "textbook-audio",
+    img: "./images/american-think.jpg",
+    link: "./textbook/english-file.html",
+    desc: `American Think ဟာ လူငယ်တွေအတွက်အဓိကရည်ရွယ်ထားတာဖြစ်ပြီး
+            ဘာသာစကားသင်ပေးရုံသာ မဟုတ်ဘဲ စဉ်းစားတွေးခေါ်တတ်အောင်ပါ သင်ပေးတဲ့
+            series ဖြစ်ပါတယ်။`,
+  },
+  {
+    id: 7,
+    title: "Cutting Edge",
+    category: "textbook",
+    price: 2800,
+    level: "all-level",
+    type: "textbook-audio",
+    img: "./images/cutting-edge.jpg",
+    link: "./textbook/english-file.html",
+    desc: `Cutting Edge ဟာ grammar and vocabulary ကို မှတ်မိရလယ်အောင်
+            ထုတ်ဝေထားတာဖြစ်ပါတယ်။ သင်ခန်းစာများကိုလည်း ယခုခေတ်နဲ့ အညီ
+            အကြောင်းအရာများကို တွင်တွင်ကျယ်ကျယ် ထည့်တွင်းပေးထားတာလည်းဖြစ်ပါတယ်။`,
+  },
+  {
+    id: 8,
     title: "Master Present Tense Rules",
     category: "Udemy",
     price: 1700,
@@ -62,7 +104,7 @@ const menu = [
     desc: `Learn English Grammar with a native English teacher. Be more confident with use of present simple and continuous tenses`,
   },
   {
-    id: 5,
+    id: 9,
     title: "Beginner to Advanced (A1-C1) GrammarPro",
     category: "Udemy",
     price: 1900,
@@ -72,7 +114,7 @@ const menu = [
     desc: `Complete Grammar Course to FINISH studying English grammar + improve conversation and pronunciation`,
   },
   {
-    id: 6,
+    id: 10,
     title: "Complete Intermediate English Grammar Course (B1 CEFR)",
     category: "Udemy",
     price: 1700,
